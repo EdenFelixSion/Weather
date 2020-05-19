@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp">
+    <Button
+        android:id="@+id/btn_return1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/return1"/>
+
+    <TextView
+        android:id="@+id/tv_forgetpasssword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="邮箱找回"
+        android:textSize="30sp"
+        android:layout_marginLeft="135dp" />
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:background="@drawable/bg_username"
+        android:hint="请输入登录账号"
+        android:paddingLeft="10dp"
+        android:inputType="number"
+        android:layout_marginTop="80dp"/>
+
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_username"
+        android:hint="请输入与账号绑定的电子邮箱"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/et_1"
+        android:layout_marginTop="40dp"/>
+
+
+    <EditText
+        android:id="@+id/et_3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_username"
+        android:hint="请输入图形验证码"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/et_2"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_2"
+        android:layout_toRightOf="@id/et_3"
+        android:text="     验证码"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"/>
+
+
+    <EditText
+        android:id="@+id/et_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_username"
+        android:hint="请输入电子邮箱验证码"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/et_3"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/et_4"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_btn6"
+        android:text="下一步"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
